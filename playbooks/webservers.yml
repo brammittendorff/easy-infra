@@ -1,0 +1,8 @@
+---
+- hosts: webservers
+  vars: 
+    php_webserver_daemon: 'nginx'
+  roles:
+    - geerlingguy.mysql
+    - geerlingguy.nginx
+    - geerlingguy.php
