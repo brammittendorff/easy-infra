@@ -40,7 +40,7 @@ ansible-galaxy install -r requirements.yml
 To ping execute:
 
 ```
-ansible -i inventory.yml all -m ping
+ansible -i hosts all -m ping
 ```
 
 ### Run webserver roles
