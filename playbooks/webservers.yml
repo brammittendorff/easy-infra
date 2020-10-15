@@ -6,3 +6,4 @@
     - geerlingguy.mysql
     - geerlingguy.nginx
     - geerlingguy.php
+    - geerlingguy.certbot
